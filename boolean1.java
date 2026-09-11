@@ -1,8 +1,8 @@
 public class boolean1 {
    public static void main(String[] args){
-    boolean a = true;
-    boolean b = true;
-    if(a&&b){
+    boolean a = false;
+    boolean b = false;
+    if(a||b){
         System.out.println("y");
     }
     else{
