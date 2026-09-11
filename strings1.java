@@ -1,8 +1,10 @@
 public class strings1 {
     public static void main(String[] args) {
-        String name = "pranshu";
+        String name = "PRANSHU";
         int value = name.length();
         System.out.println(value);
+        String lstring = name.toLowerCase();
+        System.out.println(lstring);
 
     }
 }
