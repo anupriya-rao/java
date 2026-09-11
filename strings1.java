@@ -9,6 +9,7 @@ public class strings1 {
         System.out.println(l1string);
         String nonTrim = "    Pranshu       ";
         System.out.println(nonTrim.trim());
+        System.out.println(name.substring(2,5));
 
     }
 }
