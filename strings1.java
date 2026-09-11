@@ -10,6 +10,7 @@ public class strings1 {
         String nonTrim = "    Pranshu       ";
         System.out.println(nonTrim.trim());
         System.out.println(name.substring(2,5));
+        System.out.println(name.replace('A','j'));
 
     }
 }
