@@ -1,3 +1,5 @@
+import java.net.SocketPermission;
+
 public class strings1 {
     public static void main(String[] args) {
         String name = "PRANSHU";
@@ -11,6 +13,7 @@ public class strings1 {
         System.out.println(nonTrim.trim());
         System.out.println(name.substring(2,5));
         System.out.println(name.replace('A','j'));
+        System.out.println(name.equals("PRANSHU"));
 
     }
 }
