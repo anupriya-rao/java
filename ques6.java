@@ -27,5 +27,5 @@ public class ques6 {
             System.out.println("pass");
         }
 
-    }
+    }$
 }
