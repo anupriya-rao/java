@@ -5,7 +5,7 @@ public class switchCase1 {
         Scanner sc = new Scanner(System.in);
         System.out.printf("enter age");
         int age = sc.nextInt();
-        if(age<18){
+        /*if(age<18){
             System.out.println("you can  not drive ");
         }
         else if(age<=60){
@@ -16,7 +16,20 @@ public class switchCase1 {
         }
         else {
             System.out.printf("you can not drive ");
-        }
+        }*/
+       switch(age){
+        case 17 :
+             System.out.println("you can not drive ");
+             break;
+        case 20 :
+             System.out.println("you can drive ");
+             break;
+        case 60 :
+             System.out.println("you can drive ");
+             break;
+
+       }
+       
 
     }
 }
