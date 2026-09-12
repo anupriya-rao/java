@@ -30,6 +30,7 @@ public class ques8 {
         break;
         default:
         System.out.println("Invalid day number");
+        
      }
      
 
