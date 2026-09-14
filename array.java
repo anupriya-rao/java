@@ -10,7 +10,7 @@ public class array {
         System.out.println(marks[7]);
         System.out.println(marks.length);*/
         int [] neighbours = {22,334,44,222,444,22,344};
-        for(int i=0 ; i<neighbours.length ; i++){
+        for(int i=(neighbours.length-1); i>=0 ; i--){
             System.out.println(neighbours[i]);
         }
 
