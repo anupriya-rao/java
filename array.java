@@ -9,8 +9,10 @@ public class array {
         /*int [] marks = {33,56,89,23,57,56,78,45};
         System.out.println(marks[7]);
         System.out.println(marks.length);*/
-        String [] neighbours = {"anu", "pranshu","sunny","kusum"};
-        System.out.println(neighbours[2]);
+        int [] neighbours = {22,334,44,222,444,22,344};
+        for(int i=0 ; i<neighbours.length ; i++){
+            System.out.println(neighbours[i]);
+        }
 
     }
 }
