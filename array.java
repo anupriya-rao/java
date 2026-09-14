@@ -7,6 +7,6 @@ public class array {
         marks[2]=99;
         System.out.println(marks[2]);*/
         int [] marks = {33,56,89,23,57,56,78,45};
-        System.out.println(marks[5]);
+        System.out.println(marks[6]);
     }
 }
