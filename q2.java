@@ -1,17 +1,13 @@
-import java.util.Scanner;
+
 public class q2 {
     public static void main(String[] args) {
         //sum of first naturam even numbers using while loop
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter value of n");
-        int n = sc.nextInt();
-        int i = 1;
-        int sum=0;
-        while(i<=n){
-            sum = sum + (2 * i);
-            i++;
-
+        int sum = 0 ;
+        int n = 1;
+        while(n<=10){
+            sum = sum + (2*n);
+            n++;
         }
-        System.out.println("Sum = " + sum);
+        System.out.print(sum);
     }
 }
