@@ -6,7 +6,11 @@ public class array {
         marks[1]=34;
         marks[2]=99;
         System.out.println(marks[2]);*/
-        int [] marks = {33,56,89,23,57,56,78,45};
+        /*int [] marks = {33,56,89,23,57,56,78,45};
         System.out.println(marks[7]);
+        System.out.println(marks.length);*/
+        String [] neighbours = {"anu", "pranshu","sunny","kusum"};
+        System.out.println(neighbours[2]);
+
     }
 }
