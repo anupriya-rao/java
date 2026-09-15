@@ -2,12 +2,18 @@ public class q8 {
     public static void main(String[] args) {
         // min element
        int [] num = { 1 , 3, 45 , 56, 234 , 4556};
-       int min = num[0];
+       int sort = num[0];
        for(int i = 0 ; i<num.length; i++){
-        if(num[i]<min){
-            min=num[i];
+        for(int j=i+1; j<num.length ; j++){
+            if(num[i]>num[j]){
+                int temp = num[i];
+                num[i] =num[j];
+                num[j] = temp;
+            }
         }
        }
-       System.out.println(min);
+       for (int i = 0; i < num.length; i++) {
+            System.out.print(num[i] + " ");
+        }
     }
 }
