@@ -11,7 +11,7 @@ public class method {
 
         }
     public static void main(String[] args) {
-        int x = 9;
+        int x = 8;
         int y = 6;
         int z = logic(x, y);
         System.out.println(z);
