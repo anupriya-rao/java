@@ -1,7 +1,15 @@
 public class method {
     public static void main(String[] args) {
-        for(int i = 0; i<= 100; i++){
-        System.out.println("kusum");
+        float a = 7f;
+        float b = 6f;
+        float c;
+        if(a<b){
+            c = (a*b)*9;
         }
+        else{
+            c=(a+b)/9;
+        }
+         System.out.println(c);
+       
     }
 }
