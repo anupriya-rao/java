@@ -1,11 +1,14 @@
 public class methodOverloading {
-    
-        static void joke(){
-            System.out.println("ths is a girl");
-
-        }
+    // method overloading 
+    static void anu(){
+        System.out.println("this is morning");
+    }
+    static void anu(int a){
+        System.out.println("anu  "+a);
+    }
     public static void main(String[] args) {
-        joke();
-    }    
+        anu(19);
+    }
+
 }
 
