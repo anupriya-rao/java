@@ -7,7 +7,7 @@ public class methodOverloading {
         System.out.println("anu  "+a);
     }
     public static void main(String[] args) {
-        anu(19);
+        anu(192928892);
     }
 
 }
