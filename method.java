@@ -1,15 +1,20 @@
 public class method {
+    static int logic(int x , int y){
+        int z ;
+            if(x>y){
+                z = (x*y);
+            }
+            else{
+                z = (x+y);
+            }
+            return z;
+
+        }
     public static void main(String[] args) {
-        float a = 7f;
-        float b = 6f;
-        float c;
-        if(a<b){
-            c = (a*b)*9;
-        }
-        else{
-            c=(a+b)/9;
-        }
-         System.out.println(c);
+        int x = 9;
+        int y = 6;
+        int z = logic(x, y);
+        System.out.println(z);
        
     }
 }
