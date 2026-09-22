@@ -7,7 +7,7 @@ public class customClass {
         employee pranshu = new employee();
         pranshu.id = 11;
         pranshu.name = "anupriya";
-        System.out.println(pranshu.id);
+        System.out.println(pranshu.name);
 
     }
 }
